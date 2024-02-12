@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "folder-hierarchy-client-side-solution",
+    "id": "adb760e4-6cd6-4e2e-8f5c-b2fadb5a382d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Folder Hierarchy description"
+      },
+      "longDescription": {
+        "default": "Folder Hierarchy description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "folder-hierarchy Feature",
+        "description": "The feature that activates elements of the folder-hierarchy solution.",
+        "id": "0ec6d228-2580-4007-92ab-1346a1866d6e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/folder-hierarchy.sppkg"
+  }
+}
